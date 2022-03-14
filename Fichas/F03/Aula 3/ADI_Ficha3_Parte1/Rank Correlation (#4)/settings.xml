@@ -6,11 +6,6 @@
         <entry key="memory_policy" type="xstring" value="CacheSmallInMemory"/>
     </config>
     <config key="model">
-        <config key="corr-measure_Internals">
-            <entry key="SettingsModelID" type="xstring" value="SMID_string"/>
-            <entry key="EnabledStatus" type="xboolean" value="true"/>
-        </config>
-        <entry key="corr-measure" type="xstring" value="Spearmans Rho"/>
         <config key="include-list_Internals">
             <entry key="SettingsModelID" type="xstring" value="SMID_columnfilter"/>
             <entry key="EnabledStatus" type="xboolean" value="true"/>
@@ -57,16 +52,21 @@
                 </config>
             </config>
         </config>
-        <config key="includeValidColumnPairs_Internals">
-            <entry key="SettingsModelID" type="xstring" value="SMID_boolean"/>
+        <config key="corr-measure_Internals">
+            <entry key="SettingsModelID" type="xstring" value="SMID_string"/>
             <entry key="EnabledStatus" type="xboolean" value="true"/>
         </config>
-        <entry key="includeValidColumnPairs" type="xboolean" value="false"/>
+        <entry key="corr-measure" type="xstring" value="Spearmans Rho"/>
         <config key="pvalAlternative_Internals">
             <entry key="SettingsModelID" type="xstring" value="SMID_string"/>
             <entry key="EnabledStatus" type="xboolean" value="true"/>
         </config>
         <entry key="pvalAlternative" type="xstring" value="TWO_SIDED"/>
+        <config key="includeValidColumnPairs_Internals">
+            <entry key="SettingsModelID" type="xstring" value="SMID_boolean"/>
+            <entry key="EnabledStatus" type="xboolean" value="true"/>
+        </config>
+        <entry key="includeValidColumnPairs" type="xboolean" value="false"/>
     </config>
     <entry key="customDescription" type="xstring" isnull="true" value=""/>
     <entry key="state" type="xstring" value="EXECUTED"/>
@@ -128,6 +128,6 @@
     </config>
     <config key="filestores">
         <entry key="file_store_location" type="xstring" isnull="true" value=""/>
-        <entry key="file_store_id" type="xstring" value="6c408b9f-3f89-4c03-9032-87808d1524e3"/>
+        <entry key="file_store_id" type="xstring" value="25f7d0b5-97fd-4161-9251-b1b0e23a7f93"/>
     </config>
 </config>

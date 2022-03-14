@@ -6,14 +6,10 @@
         <entry key="memory_policy" type="xstring" value="CacheSmallInMemory"/>
     </config>
     <config key="model">
-        <config key="include-list_Internals">
-            <entry key="SettingsModelID" type="xstring" value="SMID_columnfilter"/>
-            <entry key="EnabledStatus" type="xboolean" value="true"/>
-        </config>
-        <config key="include-list">
-            <entry key="filter-type" type="xstring" value="STANDARD"/>
+        <config key="column-filter">
+            <entry key="filter-type" type="xstring" value="datatype"/>
             <config key="included_names">
-                <entry key="array-size" type="xint" value="15"/>
+                <entry key="array-size" type="xint" value="16"/>
                 <entry key="0" type="xstring" value="CustomerKey"/>
                 <entry key="1" type="xstring" value="WebActivity"/>
                 <entry key="2" type="xstring" value="Sentiment Analysis"/>
@@ -29,6 +25,7 @@
                 <entry key="12" type="xstring" value="ChurnScore"/>
                 <entry key="13" type="xstring" value="CallActivity"/>
                 <entry key="14" type="xstring" value="Products"/>
+                <entry key="15" type="xstring" value="Birthday"/>
             </config>
             <config key="excluded_names">
                 <entry key="array-size" type="xint" value="0"/>
@@ -42,32 +39,20 @@
             </config>
             <config key="datatype">
                 <config key="typelist">
-                    <entry key="org.knime.core.data.IntValue" type="xboolean" value="false"/>
-                    <entry key="org.knime.core.data.StringValue" type="xboolean" value="false"/>
+                    <entry key="org.knime.core.data.IntValue" type="xboolean" value="true"/>
+                    <entry key="org.knime.core.data.StringValue" type="xboolean" value="true"/>
                     <entry key="org.knime.core.data.DoubleValue" type="xboolean" value="false"/>
+                    <entry key="org.knime.core.data.BooleanValue" type="xboolean" value="true"/>
+                    <entry key="org.knime.core.data.LongValue" type="xboolean" value="true"/>
+                    <entry key="org.knime.core.data.date.DateAndTimeValue" type="xboolean" value="true"/>
                 </config>
             </config>
         </config>
-        <config key="possibleValuesCount_Internals">
-            <entry key="SettingsModelID" type="xstring" value="SMID_integer"/>
-            <entry key="EnabledStatus" type="xboolean" value="true"/>
-        </config>
-        <entry key="possibleValuesCount" type="xint" value="50"/>
-        <config key="pvalAlternative_Internals">
-            <entry key="SettingsModelID" type="xstring" value="SMID_string"/>
-            <entry key="EnabledStatus" type="xboolean" value="true"/>
-        </config>
-        <entry key="pvalAlternative" type="xstring" value="TWO_SIDED"/>
-        <config key="columnPairsFilter_Internals">
-            <entry key="SettingsModelID" type="xstring" value="SMID_string"/>
-            <entry key="EnabledStatus" type="xboolean" value="true"/>
-        </config>
-        <entry key="columnPairsFilter" type="xstring" value="COMPATIBLE_PAIRS"/>
     </config>
     <entry key="customDescription" type="xstring" isnull="true" value=""/>
     <entry key="state" type="xstring" value="EXECUTED"/>
-    <entry key="factory" type="xstring" value="org.knime.base.node.preproc.correlation.compute2.CorrelationCompute2NodeFactory"/>
-    <entry key="node-name" type="xstring" value="Linear Correlation"/>
+    <entry key="factory" type="xstring" value="org.knime.base.node.preproc.filter.column.DataColumnSpecFilterNodeFactory"/>
+    <entry key="node-name" type="xstring" value="Column Filter"/>
     <entry key="node-bundle-name" type="xstring" value="KNIME Base Nodes"/>
     <entry key="node-bundle-symbolic-name" type="xstring" value="org.knime.base"/>
     <entry key="node-bundle-vendor" type="xstring" value="KNIME AG, Zurich, Switzerland"/>
@@ -77,7 +62,7 @@
     <entry key="node-feature-vendor" type="xstring" value="KNIME AG, Zurich, Switzerland"/>
     <entry key="node-feature-version" type="xstring" value="4.5.1.v202201171200"/>
     <config key="factory_settings"/>
-    <entry key="name" type="xstring" value="Linear Correlation"/>
+    <entry key="name" type="xstring" value="Column Filter"/>
     <entry key="hasContent" type="xboolean" value="true"/>
     <entry key="isInactive" type="xboolean" value="false"/>
     <config key="ports">
@@ -85,38 +70,12 @@
             <entry key="index" type="xint" value="1"/>
             <entry key="port_spec_class" type="xstring" value="org.knime.core.data.DataTableSpec"/>
             <entry key="port_object_class" type="xstring" value="org.knime.core.node.BufferedDataTable"/>
-            <entry key="port_object_summary" type="xstring" value="Rows: 65, Cols: 5"/>
+            <entry key="port_object_summary" type="xstring" value="Rows: 15167, Cols: 15"/>
             <entry key="port_dir_location" type="xstring" value="port_1"/>
-        </config>
-        <config key="port_2">
-            <entry key="index" type="xint" value="2"/>
-            <entry key="port_spec_class" type="xstring" value="org.knime.core.data.DataTableSpec"/>
-            <entry key="port_object_class" type="xstring" value="org.knime.core.node.BufferedDataTable"/>
-            <entry key="port_object_summary" type="xstring" value="Rows: 16, Cols: 16"/>
-            <entry key="port_dir_location" type="xstring" value="port_2"/>
-        </config>
-        <config key="port_3">
-            <entry key="index" type="xint" value="3"/>
-            <entry key="port_spec_class" type="xstring" value="org.knime.base.node.preproc.correlation.pmcc.PMCCPortObjectAndSpec"/>
-            <entry key="port_object_class" type="xstring" value="org.knime.base.node.preproc.correlation.pmcc.PMCCPortObjectAndSpec"/>
-            <entry key="port_object_summary" type="xstring" value="Correlation values on 16 columns"/>
-            <entry key="port_spec_location" type="xstring" value="spec/spec.zip"/>
-            <entry key="port_object_location" type="xstring" value="object/portobject.zip"/>
-            <entry key="port_dir_location" type="xstring" value="port_3"/>
-        </config>
-    </config>
-    <config key="internalObjects">
-        <entry key="location" type="xstring" value="internalTables"/>
-        <config key="content">
-            <config key="object_0">
-                <entry key="index" type="xint" value="0"/>
-                <entry key="type" type="xstring" value="table"/>
-                <entry key="table_dir_location" type="xstring" value="object_0"/>
-            </config>
         </config>
     </config>
     <config key="filestores">
         <entry key="file_store_location" type="xstring" isnull="true" value=""/>
-        <entry key="file_store_id" type="xstring" value="9c2a5702-5504-4589-b78b-d91f7fbd54c7"/>
+        <entry key="file_store_id" type="xstring" value="ef89e2aa-0d8d-42a6-a25c-27acd3db652f"/>
     </config>
 </config>

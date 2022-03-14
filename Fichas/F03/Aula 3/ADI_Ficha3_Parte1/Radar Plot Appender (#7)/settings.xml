@@ -41,10 +41,10 @@
                 <entry key="VALIDMAX" type="xdouble" value="0.0"/>
                 <entry key="MIN" type="xdouble" value="0.0"/>
                 <entry key="MAX" type="xdouble" value="0.0"/>
-                <entry key="BACKGROUND" type="xstring" value="175.220.240"/>
-                <entry key="INTERVAL" type="xstring" value="105.150.170"/>
-                <entry key="BEND" type="xstring" value="0.255.0"/>
-                <entry key="OUTLYINGBEND" type="xstring" value="255.0.0"/>
+                <entry key="BACKGROUND" type="xstring" isnull="true" value=""/>
+                <entry key="INTERVAL" type="xstring" isnull="true" value=""/>
+                <entry key="BEND" type="xstring" isnull="true" value=""/>
+                <entry key="OUTLYINGBEND" type="xstring" isnull="true" value=""/>
                 <entry key="SELECTED" type="xboolean" value="false"/>
                 <entry key="ISDOUBLE" type="xboolean" value="false"/>
             </config>
@@ -67,10 +67,10 @@
                 <entry key="VALIDMAX" type="xdouble" value="0.0"/>
                 <entry key="MIN" type="xdouble" value="0.0"/>
                 <entry key="MAX" type="xdouble" value="0.0"/>
-                <entry key="BACKGROUND" type="xstring" value="175.220.240"/>
-                <entry key="INTERVAL" type="xstring" value="105.150.170"/>
-                <entry key="BEND" type="xstring" value="0.255.0"/>
-                <entry key="OUTLYINGBEND" type="xstring" value="255.0.0"/>
+                <entry key="BACKGROUND" type="xstring" isnull="true" value=""/>
+                <entry key="INTERVAL" type="xstring" isnull="true" value=""/>
+                <entry key="BEND" type="xstring" isnull="true" value=""/>
+                <entry key="OUTLYINGBEND" type="xstring" isnull="true" value=""/>
                 <entry key="SELECTED" type="xboolean" value="false"/>
                 <entry key="ISDOUBLE" type="xboolean" value="false"/>
             </config>
@@ -80,10 +80,10 @@
                 <entry key="VALIDMAX" type="xdouble" value="0.0"/>
                 <entry key="MIN" type="xdouble" value="0.0"/>
                 <entry key="MAX" type="xdouble" value="0.0"/>
-                <entry key="BACKGROUND" type="xstring" value="175.220.240"/>
-                <entry key="INTERVAL" type="xstring" value="105.150.170"/>
-                <entry key="BEND" type="xstring" value="0.255.0"/>
-                <entry key="OUTLYINGBEND" type="xstring" value="255.0.0"/>
+                <entry key="BACKGROUND" type="xstring" isnull="true" value=""/>
+                <entry key="INTERVAL" type="xstring" isnull="true" value=""/>
+                <entry key="BEND" type="xstring" isnull="true" value=""/>
+                <entry key="OUTLYINGBEND" type="xstring" isnull="true" value=""/>
                 <entry key="SELECTED" type="xboolean" value="false"/>
                 <entry key="ISDOUBLE" type="xboolean" value="false"/>
             </config>
@@ -197,10 +197,10 @@
                 <entry key="VALIDMAX" type="xdouble" value="0.0"/>
                 <entry key="MIN" type="xdouble" value="0.0"/>
                 <entry key="MAX" type="xdouble" value="0.0"/>
-                <entry key="BACKGROUND" type="xstring" value="175.220.240"/>
-                <entry key="INTERVAL" type="xstring" value="105.150.170"/>
-                <entry key="BEND" type="xstring" value="0.255.0"/>
-                <entry key="OUTLYINGBEND" type="xstring" value="255.0.0"/>
+                <entry key="BACKGROUND" type="xstring" isnull="true" value=""/>
+                <entry key="INTERVAL" type="xstring" isnull="true" value=""/>
+                <entry key="BEND" type="xstring" isnull="true" value=""/>
+                <entry key="OUTLYINGBEND" type="xstring" isnull="true" value=""/>
                 <entry key="SELECTED" type="xboolean" value="false"/>
                 <entry key="ISDOUBLE" type="xboolean" value="false"/>
             </config>
@@ -210,10 +210,10 @@
                 <entry key="VALIDMAX" type="xdouble" value="0.0"/>
                 <entry key="MIN" type="xdouble" value="0.0"/>
                 <entry key="MAX" type="xdouble" value="0.0"/>
-                <entry key="BACKGROUND" type="xstring" value="175.220.240"/>
-                <entry key="INTERVAL" type="xstring" value="105.150.170"/>
-                <entry key="BEND" type="xstring" value="0.255.0"/>
-                <entry key="OUTLYINGBEND" type="xstring" value="255.0.0"/>
+                <entry key="BACKGROUND" type="xstring" isnull="true" value=""/>
+                <entry key="INTERVAL" type="xstring" isnull="true" value=""/>
+                <entry key="BEND" type="xstring" isnull="true" value=""/>
+                <entry key="OUTLYINGBEND" type="xstring" isnull="true" value=""/>
                 <entry key="SELECTED" type="xboolean" value="false"/>
                 <entry key="ISDOUBLE" type="xboolean" value="false"/>
             </config>
@@ -246,6 +246,6 @@
     </config>
     <config key="filestores">
         <entry key="file_store_location" type="xstring" isnull="true" value=""/>
-        <entry key="file_store_id" type="xstring" value="a98cfea0-0e20-45ee-8527-baf44f5883af"/>
+        <entry key="file_store_id" type="xstring" value="1cad4a25-8554-4c1c-8adc-56a5603ca81d"/>
     </config>
 </config>
