@@ -24,7 +24,7 @@
     <entry key="node-feature-name" type="xstring" value="KNIME Base nodes"/>
     <entry key="node-feature-symbolic-name" type="xstring" value="org.knime.features.base.feature.group"/>
     <entry key="node-feature-vendor" type="xstring" value="KNIME AG, Zurich, Switzerland"/>
-    <entry key="node-feature-version" type="xstring" value="4.5.1.v202201171200"/>
+    <entry key="node-feature-version" type="xstring" value="4.5.2.v202203141441"/>
     <config key="factory_settings"/>
     <entry key="name" type="xstring" value="Partitioning"/>
     <entry key="hasContent" type="xboolean" value="true"/>
@@ -47,6 +47,6 @@
     </config>
     <config key="filestores">
         <entry key="file_store_location" type="xstring" isnull="true" value=""/>
-        <entry key="file_store_id" type="xstring" value="4d4407fd-5846-4281-beb7-7a8e7a3252a3"/>
+        <entry key="file_store_id" type="xstring" value="e635124d-7a7d-4c23-b766-a96e9bb2a343"/>
     </config>
 </config>

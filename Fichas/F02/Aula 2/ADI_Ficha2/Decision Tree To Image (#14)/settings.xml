@@ -27,7 +27,7 @@
     <entry key="node-feature-name" type="xstring" value="KNIME Base nodes"/>
     <entry key="node-feature-symbolic-name" type="xstring" value="org.knime.features.base.feature.group"/>
     <entry key="node-feature-vendor" type="xstring" value="KNIME AG, Zurich, Switzerland"/>
-    <entry key="node-feature-version" type="xstring" value="4.5.1.v202201171200"/>
+    <entry key="node-feature-version" type="xstring" value="4.5.2.v202203141441"/>
     <config key="factory_settings"/>
     <entry key="name" type="xstring" value="Decision Tree To Image"/>
     <entry key="hasContent" type="xboolean" value="true"/>
@@ -45,6 +45,6 @@
     </config>
     <config key="filestores">
         <entry key="file_store_location" type="xstring" isnull="true" value=""/>
-        <entry key="file_store_id" type="xstring" value="2b659d3b-6eeb-4112-ae9c-18a1851987f2"/>
+        <entry key="file_store_id" type="xstring" value="c9cac10c-9a62-4ca4-9c48-9d55d06f7245"/>
     </config>
 </config>

@@ -30,7 +30,7 @@
                 <entry key="EnabledStatus" type="xboolean" value="true"/>
             </config>
             <entry key="create_missing_folders" type="xboolean" value="false"/>
-            <entry key="if_path_exists" type="xstring" value="fail"/>
+            <entry key="if_path_exists" type="xstring" value="overwrite"/>
         </config>
     </config>
     <entry key="customDescription" type="xstring" isnull="true" value=""/>
@@ -44,7 +44,7 @@
     <entry key="node-feature-name" type="xstring" value="KNIME Base nodes"/>
     <entry key="node-feature-symbolic-name" type="xstring" value="org.knime.features.base.feature.group"/>
     <entry key="node-feature-vendor" type="xstring" value="KNIME AG, Zurich, Switzerland"/>
-    <entry key="node-feature-version" type="xstring" value="4.5.1.v202201171200"/>
+    <entry key="node-feature-version" type="xstring" value="4.5.2.v202203141441"/>
     <config key="factory_settings"/>
     <config key="node_creation_config">
         <config key="File System Connection"/>
@@ -56,6 +56,6 @@
     <config key="ports"/>
     <config key="filestores">
         <entry key="file_store_location" type="xstring" isnull="true" value=""/>
-        <entry key="file_store_id" type="xstring" value="1cb7f7ad-1253-47d7-9c60-1be606c9d99b"/>
+        <entry key="file_store_id" type="xstring" value="5ffe067f-6c03-4f0a-aef8-e17e10a4aacd"/>
     </config>
 </config>
