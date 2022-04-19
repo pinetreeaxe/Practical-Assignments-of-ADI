@@ -7,7 +7,7 @@
     </config>
     <config key="model">
         <entry key="hideInWizard" type="xboolean" value="false"/>
-        <entry key="showMedian" type="xboolean" value="false"/>
+        <entry key="showMedian" type="xboolean" value="true"/>
         <entry key="enablePaging" type="xboolean" value="false"/>
         <entry key="initialPageSize" type="xint" value="10"/>
         <entry key="enablePageSizeChange" type="xboolean" value="true"/>
@@ -34,7 +34,7 @@
         <entry key="displayFullscreenButton" type="xboolean" value="true"/>
         <entry key="displayMissingValueAsQuestionMark" type="xboolean" value="true"/>
         <entry key="displayRowNumber" type="xint" value="100"/>
-        <entry key="maxNominalValues" type="xint" value="10000"/>
+        <entry key="maxNominalValues" type="xint" value="100000"/>
         <entry key="enableFreqValDisplay" type="xboolean" value="true"/>
         <entry key="freqValuesNumber" type="xint" value="5"/>
         <entry key="missingValuesInHist" type="xboolean" value="false"/>
@@ -66,12 +66,12 @@
             <entry key="index" type="xint" value="1"/>
             <entry key="port_spec_class" type="xstring" value="org.knime.core.data.DataTableSpec"/>
             <entry key="port_object_class" type="xstring" value="org.knime.core.node.BufferedDataTable"/>
-            <entry key="port_object_summary" type="xstring" value="Rows: 3333, Cols: 21"/>
+            <entry key="port_object_summary" type="xstring" value="Rows: 15167, Cols: 16"/>
             <entry key="port_dir_location" type="xstring" value="port_1"/>
         </config>
     </config>
     <config key="filestores">
         <entry key="file_store_location" type="xstring" isnull="true" value=""/>
-        <entry key="file_store_id" type="xstring" value="3b52e943-6beb-4e2f-a04a-e7603dd91782"/>
+        <entry key="file_store_id" type="xstring" value="166de616-6d8a-41dd-a4b3-0c6677cbd79c"/>
     </config>
 </config>
