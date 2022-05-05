@@ -8,7 +8,7 @@
         <entry key="authored-by" type="xstring" value="joaom"/>
         <entry key="authored-when" type="xstring" value="2022-03-02 13:25:35 +0000"/>
         <entry key="lastEdited-by" type="xstring" value="joaom"/>
-        <entry key="lastEdited-when" type="xstring" value="2022-04-04 18:42:02 +0100"/>
+        <entry key="lastEdited-when" type="xstring" value="2022-05-05 20:46:56 +0100"/>
     </config>
     <entry key="customDescription" type="xstring" isnull="true" value=""/>
     <entry key="state" type="xstring" value="EXECUTED"/>
@@ -103,8 +103,8 @@
             <config key="ui_settings">
                 <config key="extrainfo.node.bounds">
                     <entry key="array-size" type="xint" value="4"/>
-                    <entry key="0" type="xint" value="584"/>
-                    <entry key="1" type="xint" value="57"/>
+                    <entry key="0" type="xint" value="644"/>
+                    <entry key="1" type="xint" value="37"/>
                     <entry key="2" type="xint" value="80"/>
                     <entry key="3" type="xint" value="93"/>
                 </config>
@@ -135,7 +135,7 @@
             <config key="ui_settings">
                 <config key="extrainfo.node.bounds">
                     <entry key="array-size" type="xint" value="4"/>
-                    <entry key="0" type="xint" value="784"/>
+                    <entry key="0" type="xint" value="924"/>
                     <entry key="1" type="xint" value="217"/>
                     <entry key="2" type="xint" value="50"/>
                     <entry key="3" type="xint" value="78"/>
@@ -218,6 +218,22 @@
                     <entry key="0" type="xint" value="944"/>
                     <entry key="1" type="xint" value="77"/>
                     <entry key="2" type="xint" value="119"/>
+                    <entry key="3" type="xint" value="78"/>
+                </config>
+            </config>
+        </config>
+        <config key="node_16">
+            <entry key="id" type="xint" value="16"/>
+            <entry key="node_settings_file" type="xstring" value="Missing Value (#16)/settings.xml"/>
+            <entry key="node_is_meta" type="xboolean" value="false"/>
+            <entry key="node_type" type="xstring" value="NativeNode"/>
+            <entry key="ui_classname" type="xstring" value="org.knime.core.node.workflow.NodeUIInformation"/>
+            <config key="ui_settings">
+                <config key="extrainfo.node.bounds">
+                    <entry key="array-size" type="xint" value="4"/>
+                    <entry key="0" type="xint" value="804"/>
+                    <entry key="1" type="xint" value="217"/>
+                    <entry key="2" type="xint" value="85"/>
                     <entry key="3" type="xint" value="78"/>
                 </config>
             </config>
@@ -346,13 +362,9 @@
         </config>
         <config key="connection_12">
             <entry key="sourceID" type="xint" value="9"/>
-            <entry key="destID" type="xint" value="10"/>
+            <entry key="destID" type="xint" value="16"/>
             <entry key="sourcePort" type="xint" value="1"/>
             <entry key="destPort" type="xint" value="1"/>
-            <entry key="ui_classname" type="xstring" value="org.knime.core.node.workflow.ConnectionUIInformation"/>
-            <config key="ui_settings">
-                <entry key="extrainfo.conn.bendpoints_size" type="xint" value="0"/>
-            </config>
         </config>
         <config key="connection_13">
             <entry key="sourceID" type="xint" value="14"/>
@@ -363,6 +375,12 @@
             <config key="ui_settings">
                 <entry key="extrainfo.conn.bendpoints_size" type="xint" value="0"/>
             </config>
+        </config>
+        <config key="connection_14">
+            <entry key="sourceID" type="xint" value="16"/>
+            <entry key="destID" type="xint" value="10"/>
+            <entry key="sourcePort" type="xint" value="1"/>
+            <entry key="destPort" type="xint" value="1"/>
         </config>
     </config>
     <config key="workflow_editor_settings">

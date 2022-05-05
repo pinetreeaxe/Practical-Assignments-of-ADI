@@ -6,36 +6,26 @@
         <entry key="memory_policy" type="xstring" value="CacheSmallInMemory"/>
     </config>
     <config key="model">
-        <config key="UseGainRatio_Internals">
-            <entry key="SettingsModelID" type="xstring" value="SMID_integer"/>
-            <entry key="EnabledStatus" type="xboolean" value="true"/>
+        <config key="columnSettings"/>
+        <config key="dataTypeSettings">
+            <config key="org.knime.core.data.def.IntCell">
+                <entry key="factoryID" type="xstring" value="org.knime.base.node.preproc.pmml.missingval.handlers.DoNothingMissingCellHandlerFactory"/>
+                <config key="settings"/>
+            </config>
+            <config key="org.knime.core.data.def.StringCell">
+                <entry key="factoryID" type="xstring" value="org.knime.base.node.preproc.pmml.missingval.handlers.MostFrequentValueMissingCellHandlerFactory"/>
+                <config key="settings"/>
+            </config>
+            <config key="org.knime.core.data.def.DoubleCell">
+                <entry key="factoryID" type="xstring" value="org.knime.base.node.preproc.pmml.missingval.handlers.DoNothingMissingCellHandlerFactory"/>
+                <config key="settings"/>
+            </config>
         </config>
-        <entry key="UseGainRatio" type="xint" value="10000"/>
-        <config key="ShowDistribution_Internals">
-            <entry key="SettingsModelID" type="xstring" value="SMID_boolean"/>
-            <entry key="EnabledStatus" type="xboolean" value="true"/>
-        </config>
-        <entry key="ShowDistribution" type="xboolean" value="false"/>
-        <config key="prediction column name_Internals">
-            <entry key="SettingsModelID" type="xstring" value="SMID_string"/>
-            <entry key="EnabledStatus" type="xboolean" value="false"/>
-        </config>
-        <entry key="prediction column name" type="xstring" value="Prediction (Churn)"/>
-        <config key="change prediction_Internals">
-            <entry key="SettingsModelID" type="xstring" value="SMID_boolean"/>
-            <entry key="EnabledStatus" type="xboolean" value="true"/>
-        </config>
-        <entry key="change prediction" type="xboolean" value="false"/>
-        <config key="class probability suffix_Internals">
-            <entry key="SettingsModelID" type="xstring" value="SMID_string"/>
-            <entry key="EnabledStatus" type="xboolean" value="false"/>
-        </config>
-        <entry key="class probability suffix" type="xstring" value=""/>
     </config>
     <entry key="customDescription" type="xstring" isnull="true" value=""/>
     <entry key="state" type="xstring" value="EXECUTED"/>
-    <entry key="factory" type="xstring" value="org.knime.base.node.mine.decisiontree2.predictor2.DecTreePredictorNodeFactory"/>
-    <entry key="node-name" type="xstring" value="Decision Tree Predictor"/>
+    <entry key="factory" type="xstring" value="org.knime.base.node.preproc.pmml.missingval.compute.MissingValueHandlerNodeFactory"/>
+    <entry key="node-name" type="xstring" value="Missing Value"/>
     <entry key="node-bundle-name" type="xstring" value="KNIME Base Nodes"/>
     <entry key="node-bundle-symbolic-name" type="xstring" value="org.knime.base"/>
     <entry key="node-bundle-vendor" type="xstring" value="KNIME AG, Zurich, Switzerland"/>
@@ -45,7 +35,7 @@
     <entry key="node-feature-vendor" type="xstring" value="KNIME AG, Zurich, Switzerland"/>
     <entry key="node-feature-version" type="xstring" value="4.5.2.v202203141441"/>
     <config key="factory_settings"/>
-    <entry key="name" type="xstring" value="Decision Tree Predictor"/>
+    <entry key="name" type="xstring" value="Missing Value"/>
     <entry key="hasContent" type="xboolean" value="true"/>
     <entry key="isInactive" type="xboolean" value="false"/>
     <config key="ports">
@@ -56,9 +46,18 @@
             <entry key="port_object_summary" type="xstring" value="Rows: 834, Cols: 22"/>
             <entry key="port_dir_location" type="xstring" value="port_1"/>
         </config>
+        <config key="port_2">
+            <entry key="index" type="xint" value="2"/>
+            <entry key="port_spec_class" type="xstring" value="org.knime.core.node.port.pmml.PMMLPortObjectSpec"/>
+            <entry key="port_object_class" type="xstring" value="org.knime.core.node.port.pmml.PMMLPortObject"/>
+            <entry key="port_object_summary" type="xstring" value="PMML document with version 4.2 and models: "/>
+            <entry key="port_spec_location" type="xstring" value="spec/spec.zip"/>
+            <entry key="port_object_location" type="xstring" value="object/portobject.zip"/>
+            <entry key="port_dir_location" type="xstring" value="port_2"/>
+        </config>
     </config>
     <config key="filestores">
         <entry key="file_store_location" type="xstring" isnull="true" value=""/>
-        <entry key="file_store_id" type="xstring" value="5407fdf7-cc75-4404-ae1c-833ecd8099ee"/>
+        <entry key="file_store_id" type="xstring" value="5db0b74a-9e54-4476-bf91-0267725cac32"/>
     </config>
 </config>
